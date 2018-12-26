@@ -39,9 +39,11 @@ public class BasicRNNExample {
 	private static final List<Character> LEARNSTRING_CHARS_LIST = new ArrayList<>();
 
 	// RNN dimensions
-	private static final int HIDDEN_LAYER_WIDTH = 50;
-	private static final int HIDDEN_LAYER_CONT = 2;
-    private static final Random r = new Random(7894);
+	private static final int HIDDEN_LAYER_WIDTH = 50; /* output size of the 
+                                                         hidden lstm layer */
+	private static final int HIDDEN_LAYER_CONT = 2; /* number of hidden lstm l
+                                                       layers */
+    private static final Random r = new Random(7894); 
 
 	public static void main(String[] args) {
 
